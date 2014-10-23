@@ -8,7 +8,8 @@
 
 1. MAZE BOT
 ###########
- - A hover bot needs to find the quickest way out of a 3D maze
+
+- A hover bot needs to find the quickest way out of a 3D maze
 - You can think of the maze as a box made up of unit cubes
 - Each cube is either transparent or solid
 - You can move in 6 directions: north, south, east, west, up, down
@@ -16,21 +17,28 @@
 - You can only move through transparent cubes
 - You cannot move through the boundaries of the maze
 
- 2. INPUT FORMAT
+
+2. INPUT FORMAT
 ###############
- - The input file begins with the height of the box measured in cubes
+
+- The input file begins with the height of the box measured in cubes
 - It describes each layer of the box starting from bottom to top
 - Each layer must be the same width and height
 - Assume that "#" designates a solid cube and "." a transparent one
 - Also, "B" marks your beginning cell and "E" marks the end cell
 - Note that "B" and "E" may be in any one of the layers
-- Also, assume "B" and "E" can be treated as transparent cubes 
- 3. OUTPUT FORMAT
+- Also, assume "B" and "E" can be treated as transparent cubes
+
+
+3. OUTPUT FORMAT
 ################
- - The output format should output "Not Escapable" or "Escapable"
+
+- The output format should output "Not Escapable" or "Escapable"
 - If "Escapable", display the steps with the directions: N,S,E,W,U,D
 - Make sure the bot finds the solution in the shortest path possible 
- 4. QUESTION
+
+
+4. QUESTION
 ###########
 
 - Add another Bot called "A" in the sample input
@@ -39,6 +47,7 @@
 - Both bots must make it to the exit without colliding
 
 What is your solution ? Explain ... Do not implement !
+
 
  5. SAMPLE INPUT
 ###############
@@ -59,10 +68,12 @@ B####
 ..#..
 .....
 
+
 6. SAMPLE OUTPUT
-################ 
+################
+
 The maze is not escapable.
- The maze is escapable : S S S E E E E U N N N U
+The maze is escapable : S S S E E E E U N N N U
 
 
                     ############################
@@ -71,10 +82,3 @@ The maze is not escapable.
                     #           LUCK           #
                     #                          #
                     ############################
-
-
-7. HOW TO PRINT THIS DOCUMENT
-#############################
-
-- US LETTER
-- PORTRAIT
