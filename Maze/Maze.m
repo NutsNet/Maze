@@ -16,7 +16,7 @@
     [queue release]; queue = nil;
     
     [dictionaryOfCubes release]; dictionaryOfCubes = nil;
-    [dictionaryOfPaths release]; dictionaryOfCubes = nil;
+    [dictionaryOfPaths release]; dictionaryOfPaths = nil;
     
     [arrayOfAllIndexesInAllPaths release]; arrayOfAllIndexesInAllPaths = nil;
     [arrayOfOperations release]; arrayOfOperations = nil;
